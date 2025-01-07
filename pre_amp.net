@@ -1,0 +1,16 @@
+* C:\Users\madha\Desktop\Audio-Amplifier\pre_amp.asc
+Q1 Vcc N001 N002 0 BC547B
+Q2 Vo 0 N004 0 BC547B
+V1 Vcc 0 5
+V2 Vee 0 -5
+Re1 N003 N002 50
+Re2 N004 N003 50
+R N003 Vee 2.5k
+Rc Vcc Vo 5k
+V3 N001 0 SINE(0 10m 1k) AC 1
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\madha\AppData\Local\LTspice\lib\cmp\standard.bjt
+.ac dec 10m 10m 100K
+.backanno
+.end
