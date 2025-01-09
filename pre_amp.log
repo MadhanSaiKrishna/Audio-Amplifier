@@ -6,7 +6,7 @@ Warning: Multiple definitions of model "bc847c" Type: BJT
 Warning: Multiple definitions of model "bc847b" Type: BJT
 Direct Newton iteration for .op point succeeded.
 
-Date: Tue Jan  7 21:12:34 2025
+Date: Thu Jan  9 16:33:42 2025
 Total elapsed time: 0.077 seconds.
 
 tnom = 27
